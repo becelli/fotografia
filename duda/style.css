@@ -1,0 +1,55 @@
+* {
+	font-family: 'Bellota Text', cursive;
+	font-size: 20px;
+	background-color:;
+}
+#titulo {
+	font-family: 'Fredericka the Great', cursive;
+}
+.nav-link {
+	font-family: 'Exo 2', sans-serif;
+}
+.nav-link:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.dropdown-item {
+	font-family: 'Exo 2', sans-serif;
+}
+.bg-darker {
+	background-color: #0e1111;
+}
+.centralizer {
+	text-align: center;
+	margin: auto;
+}
+.title-text {
+	font-weight: 700;
+	text-align: center;
+}
+}
+.head-margin {
+	margin-bottom: 10px !important;
+}
+.inline-item {
+  display: inline-block; 
+}
+#without-dec {
+	color: #ffc107;
+	text-decoration: none;
+}
+
+.bg-whiter {
+	background-color: #f9f9f9;
+}
+.carousel-margin {
+	margin-bottom: 3vh;
+}
+/* .dropdown-link {
+	color: rgba(255, 255, 255, 0.5);
+}
+.dropdown-link:hover {
+	color: #fff;
+}
+.dropdown-item:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+} */
