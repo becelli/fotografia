@@ -35,3 +35,9 @@
     padding-right: 1.1rem;
     }
     }
+.margin-button {
+    margin: 3px;
+}
+#page-title {
+    margin: 25px 0px;
+}
