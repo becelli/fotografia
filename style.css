@@ -47,6 +47,9 @@
 .color-white {
 	color: #fff;
 }
+.cards {
+	margin-bottom: 3px;
+}
 /* .dropdown-link {
 	color: rgba(255, 255, 255, 0.5);
 }
