@@ -1,10 +1,10 @@
-for (var i = 1; i < 10; i++){
+for (var i = 1; i < 4; i++){
     var divImagens = document.createElement("div");
     document.getElementById("gallery").appendChild(divImagens);
     divImagens.id = "minha-galeria-" + i;
     divImagens.classList.add("mb-3", "pics", "animation", "all");
     var imagem = document.createElement("img");
-    imagem.src = 'images/casamentos/casamentos (' + i + ').jpg';
+    imagem.src = 'images/casamentos/casamentos (' + i + ').webp';
     imagem.classList.add("img-fluid")
     document.getElementById("minha-galeria-" + i).appendChild(imagem);
 }
