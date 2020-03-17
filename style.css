@@ -53,16 +53,11 @@
 .whatsapp_float {
 	cursor: pointer;
 	position: fixed;
-	bottom: 25px;
-	right: 30px;
+	bottom: 5%;
+	right: 2.5%;
 	z-index: 9999;
 }
-/* .dropdown-link {
-	color: rgba(255, 255, 255, 0.5);
+#contato_footer {
+	padding-top: 10px;
+	padding-bottom: 1px;
 }
-.dropdown-link:hover {
-	color: #fff;
-}
-.dropdown-item:hover {
-	background-color: rgba(255, 255, 255, 0.1);
-} */
