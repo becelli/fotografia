@@ -1,11 +1,14 @@
+/* ALL BODY */
 * {
 	font-family: 'Bellota Text', cursive;
 	font-size: 20px;
 	background-color:;
 }
+/* NAME IN NAVBAR */
 #titulo {
 	font-family: 'Fredericka the Great', cursive;
 }
+/* NAVBAR */
 .nav-link {
 	font-family: 'Exo 2', sans-serif;
 }
@@ -15,41 +18,32 @@
 .dropdown-item {
 	font-family: 'Exo 2', sans-serif;
 }
-.bg-darker {
-	background-color: #0e1111;
+/* CAROUSEL */
+.carousel-margin {
+	margin-bottom: 3vh;
 }
+/* CARDS */
+.cards {
+	margin-bottom: 3px;
+}
+/* BASIC STYLES */
 .centralizer {
 	text-align: center;
 	margin: auto;
 }
-.title-text {
-	font-weight: 700;
-	text-align: center;
-}
-}
-.head-margin {
-	margin-bottom: 10px !important;
-}
 .inline-item {
   display: inline-block; 
 }
-#without-dec {
-	color: #ffc107;
-	text-decoration: none;
+.bg-darker {
+	background-color: #0e1111;
 }
-
 .bg-whiter {
 	background-color: #f9f9f9;
-}
-.carousel-margin {
-	margin-bottom: 3vh;
 }
 .color-white {
 	color: #fff;
 }
-.cards {
-	margin-bottom: 3px;
-}
+/* FLOATERS ON RIGHT SIDE */
 .whatsapp_float {
 	display: block;
 	cursor: pointer;
@@ -68,6 +62,7 @@
 	border-color: #f9f9f9;
 	border: 16px !important;
 }
+/* LINKS WITHOUT "BLUE" */
 a, a:hover {
     color: inherit;
 }
