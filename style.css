@@ -62,11 +62,12 @@
 	display: block;
 	cursor: pointer;
 	position: fixed;
-	bottom: 17.5%;
-	right: 3%;
+	bottom: 15%;
+	right: 2.5%;
 	z-index: 9999;
+	border-color: #f9f9f9;
+	border: 16px !important;
 }
-#contato_footer {
-	padding-top: 10px;
-	padding-bottom: 1px;
+a, a:hover {
+    color: inherit;
 }
