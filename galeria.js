@@ -33,7 +33,18 @@ for (var i = 1; i < 4; i++){
     divImagens.id = "galeria-aniversarios-" + i;
     divImagens.classList.add("mb-3", "pics", "animation", "all", "2");
     var imagem = document.createElement("img");
-    imagem.src = 'images/casamentos/aniversarios (' + i + ').jpg';
+    imagem.src = 'images/aniversarios/aniversarios (' + i + ').jpg';
+    imagem.classList.add("img-fluid")
+    document.getElementById("galeria-aniversarios-" + i).appendChild(imagem);
+}
+// ADICIONAR FOTOS DE ANIVERSÁRIO
+for (var i = 1; i < 4; i++){
+    var divImagens = document.createElement("div");
+    document.getElementById("gallery").appendChild(divImagens);
+    divImagens.id = "galeria-aniversarios-" + i;
+    divImagens.classList.add("mb-3", "pics", "animation", "all", "2");
+    var imagem = document.createElement("img");
+    imagem.src = 'images/aniversarios/aniversarios (' + i + ').jpg';
     imagem.classList.add("img-fluid")
     document.getElementById("galeria-aniversarios-" + i).appendChild(imagem);
 }
